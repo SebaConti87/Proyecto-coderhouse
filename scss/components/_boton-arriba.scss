@@ -1,9 +1,10 @@
 .ir-arriba {
   position: fixed;
-  bottom: 30px;
+  bottom: 40px;
   right: 30px;
   background-color: black;
   border-radius: 50%;
+  z-index: 200;
 
   img {
     width: 70px;
