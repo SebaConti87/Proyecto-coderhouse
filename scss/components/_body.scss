@@ -1,0 +1,5 @@
+@import "../base/maps";
+
+body {
+  background-color: map-get($colores, background-principal) !important;
+}

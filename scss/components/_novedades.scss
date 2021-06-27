@@ -1,0 +1,29 @@
+@import "../base/variables";
+
+.titulo-secundario {
+  background-color: map-get($colores, background-transparent);
+
+  text-shadow: map-get($colores, text-shadow);
+  color: map-get($colores, font-color);
+  font-weight: $font-weight;
+  font-family: $font-family;
+}
+
+.carousel-item {
+  p {
+    background-color: map-get($colores, background-carousel);
+    color: map-get($colores, font-color);
+    font-weight: $font-weight;
+  }
+  h5 {
+    font-size: 0.5em;
+    background-color: map-get($colores, background-carousel);
+    color: map-get($colores, font-color);
+    display: inline;
+  }
+  a {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

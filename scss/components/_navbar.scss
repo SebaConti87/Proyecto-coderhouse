@@ -1,0 +1,12 @@
+.logo-navbar {
+  &:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s;
+  }
+}
+
+.link-redes {
+  &:hover {
+    text-decoration: line-through;
+  }
+}

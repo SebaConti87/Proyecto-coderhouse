@@ -1,0 +1,16 @@
+.ir-arriba {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: black;
+  border-radius: 50%;
+
+  img {
+    width: 70px;
+    border-radius: 50%;
+    &:hover {
+      transform: scale(1.3);
+      transition: all 0.3s;
+    }
+  }
+}

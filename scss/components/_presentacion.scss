@@ -1,0 +1,21 @@
+@import "../base/variables";
+@import "../base/mixin";
+
+.presentacion {
+  padding: $p-general;
+  background-image: url(../../images/bg-presentacion.jpg);
+  background-size: cover;
+}
+.titulo-principal {
+  background-color: map-get($colores, background-transparent);
+  text-shadow: map-get($colores, text-shadow);
+  color: map-get($colores, font-color);
+  font-weight: $font-weight;
+  font-family: $font-family;
+}
+
+.texto-presentacion {
+  @extend .titulo-principal;
+  font-size: 1.5rem;
+  @include espacios(25px, 25px);
+}

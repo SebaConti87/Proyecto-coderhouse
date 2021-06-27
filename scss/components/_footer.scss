@@ -1,0 +1,24 @@
+@import "../base/variables";
+
+footer {
+  color: whitesmoke;
+  background-color: #383c41;
+  border-top: 1px solid black;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  p {
+    margin: 0;
+    padding: 5px;
+  }
+  a {
+    color: blue;
+    font-weight: $font-weight;
+    font-size: 17px;
+    &:visited {
+      color: blue;
+    }
+  }
+}
